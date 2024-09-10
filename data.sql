@@ -27,9 +27,9 @@ insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (4, 'Team C
 insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (5, 'Group 1', 'ssmidmoor4', '2003-04-13');
 
 ----Inserting Values into Posts Table----
-insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (1, 'Funny post that will make you laugh', 'kgable0', 'yes', 'yes', 1, '2005-06-07');
-insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (2, 'Funny post that will make you laugh', 'lwallhead1', 'yes', 'no', 2, '2000-08-12');
-insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (3, 'Beautiful post with stunning images', 'bclarkin2', 'no', 'yes', 3, '2004-10-01');
-insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (4, 'Informative post about recent events', 'rbook3', 'yes', 'yes', 4, '2002-02-12');
-insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (5, 'Informative post about recent events', 'wdearth4', 'yes', 'no', 5, '2001-09-25');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (1, 'Beautiful post with stunning images', 1, 'no', 'no', 1, '2004-02-05');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (2, 'Informative post about recent events', 2, 'no', 'no', 2, '2001-07-04');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (3, 'Informative post about recent events', 3, 'no', 'yes', 3, '2000-09-07');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (4, 'Informative post about recent events', 4, 'yes', 'yes', 4, '2000-02-01');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (5, 'Informative post about recent events', 5, 'yes', 'yes', 5, '2004-01-18');
 
