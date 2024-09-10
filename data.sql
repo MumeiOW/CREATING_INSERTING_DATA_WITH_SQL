@@ -6,11 +6,11 @@ insert into Users (UserID, Username, FirstName, LastName, DateOfBirth, Password,
 insert into Users (UserID, Username, FirstName, LastName, DateOfBirth, Password, DateAdded) values (5, 'rivins4', 'Roobbie', 'Ivins', '2005-02-18', '486tK728Uu7', '2024-05-30');
 
 ----Inserting Values into Friends Table----
-insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (66, 'pleitch0', 'epretsell0', 'yes', '2004-07-27');
-insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (25, 'swarmisham1', 'nlukas1', 'yes', '2004-04-21');
-insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (84, 'emcclifferty2', 'hschutter2', 'yes', '2004-01-29');
-insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (71, 'dstillert3', 'ckeinrat3', 'no', '2001-12-26');
-insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (22, 'madamsson4', 'mmccague4', 'yes', '2003-06-27');
+insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (1, '5', '5', 'yes', '2004-07-27');
+insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (2, '4', '2', 'yes', '2004-04-21');
+insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (3, '3', '4', 'yes', '2004-01-29');
+insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (4, '2', '3', 'no', '2001-12-26');
+insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (5, '1', '1', 'yes', '2003-06-27');
 
 ----Inserting Values into GroupMembershipRequests Table----
 insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMembershipAccepted, DateAccepted) values (1, 1, 1, 'yes', '2005-04-18');
