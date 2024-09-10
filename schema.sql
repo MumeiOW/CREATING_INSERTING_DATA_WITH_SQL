@@ -4,3 +4,21 @@ from Users
 where DateOfBirth between '2000-01-01' and '2004-12-31';
 
 ----Select all the posts written by the user with a user_id of 4.----
+select *
+from Posts
+where PostedBy = 4;
+
+----Select all the group names existing in the database.----
+select GroupName
+from Groups;
+----Select all the group membership requests made by the user with a user_id of 2.----
+select *
+from GroupMembershipRequests
+where GroupMemberUserID = 2;
+----Select all the friends of the user with a user_id of 2.----
+
+----Select all the friend requests that user with a user_id of 1 has sent. The friend request can either be accepted or not yet accepted.----
+
+----Select all the posts visible only for the group with a group_id of 2.----
+
+----Select all the group membership requests from the group with a group_id of 2 that are not yet accepted.----
